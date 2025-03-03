@@ -1,0 +1,303 @@
+{box-sizing: border-box;}
+body{
+    background-color: yellow;
+}
+
+/* styling the overlay */
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  /* styling overlay content */
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* styling the overlay links */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* setting the overlay button on hover */
+  .overlay a:hover, .overlay a:focus {
+    color: yellow;
+  }
+  
+  /* styling and positioning the overlay close button */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 30px;
+  }
+  .span-1{
+    font-size: 30px;
+    cursor: pointer;
+  }
+  /* styling the navigation */  
+.navigation{
+    float: right;
+    text-align: right;
+    line-height: 30px;
+    display: block;
+    margin: 5px;
+  }
+  /* styling the navigation menus */
+  .navigation a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: black;
+    font-weight: bolder;
+  }
+  /* logo section */
+  h2{
+    font-weight: bolder;
+    margin-top: 0px;
+  }
+  /* navigation button styling */
+  .BTN{
+    border: solid;
+    background-color: transparent;
+    padding: 0px;
+    margin-top: 10px;
+    border-color: blue;
+  }
+  .BTN a{
+    font-weight: bolder;
+    padding: 2px;
+    color: red;
+  }
+  .BTN:hover{
+    background-color: black;
+    color: rgb(212, 212, 8);
+  }
+  
+  /* set background color of navigation */
+  .navigation a:hover {
+    background-color: black;
+    color: rgb(212, 212, 8);
+  }
+@media screen and (min-width:925px){
+  .span-1{display: none;}
+}
+  /* styling the navigation section for responsiveness */
+  @media screen and (max-width:925px){
+    .navigation {
+        display: none;
+    }
+    .footer-nav {
+      display: none;
+    }
+    h2{text-align: right;}
+  }
+  
+/* w3school CSS styling */
+.w3-container {
+    text-align: center;
+}
+.w3-container button{
+    background-color: transparent;
+    border: solid;
+}
+.w3-half{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.w3-half button{
+    background-color: transparent;
+    color: black;
+    border: solid;
+    font-weight: bold;
+}
+.w3-half a{
+    text-decoration: none;
+}
+/* hover effects on buttons */
+.w3-half button:hover {
+  background-color: black;
+  color: yellow;
+  border-color: red;
+}
+/* hover effects on button */
+.w3-row button:hover{
+  background-color: black;
+  color: yellow;
+  border-color: white;
+}
+.w3-half h2{
+    font-weight: bolder;
+    color: black;
+}
+h1{
+    font-weight: bolder;
+    color: black;
+}
+.w3-row a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section styling */
+/* slide container styling for Hero images*/
+.slider {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  /* slide wrapper */
+  .slides {
+    display: flex;
+    max-height: 700px;
+    width: 100%;
+    transition: transform 1s ease-in-out;
+  }
+  /* individual slide */
+  .slide {
+    width: 100%;
+    height: 100%;
+  }
+  /* Hide all slides by default */
+  .slide {
+    display: none;
+  }
+  /* Show only the active slide */
+  .slide.active {
+    display: block;
+  }
+  /* slide images styling */
+  .slide img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  /* image text styling */
+  .image-txt{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  }
+  .image-txt h1 {
+    color: #f2f2f2;
+    font-size: 5vw;
+    font-style: oblique;
+    font-weight: bolder;
+  }
+  .image-txt p{
+    color: white;
+    font-size: 2vw;
+  }
+  .image-txt button {
+    background-color: transparent;
+    border-style: solid;
+    padding: 0px 0px;
+    border-color: yellow;
+  }
+  .btn-txt a{
+    color: yellow;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  .btn-txt:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .btn-txt a:hover {
+    color: black;
+    background-color: yellow;
+  }
+  /* Dots Container */
+  .dots {
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    width: 100%;
+  }
+  
+  /* Individual Dot */
+  .dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Active Dot */
+  .dot.active {
+    background-color: #2e2c2c;
+  }
+
+  /* footer section */
+  /* styling the footer */
+  footer{
+    background-color: black;
+    color: yellow;
+    text-align: center;
+  }
+/* styling the footer Div */
+  .footer-nav {
+    background-color: black;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+  }
+  /* styling the footer links */
+  .footer-nav a {
+    text-align: right;
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: black;
+    top: 0;
+    bottom: 30px;
+  }
+  /* change background color on hover for footer links */
+  .footer-nav a:hover{
+    background-color: white;
+    color: black;
+  }
+/* footer button */
+  .footer-nav button {
+    padding: 0px;
+    border-style: solid;
+    border-color: red;
+    background-color: transparent;
+  }
+footer a{
+  text-decoration: none;
+  font-weight: bolder;
+  background-color: black;
+}  

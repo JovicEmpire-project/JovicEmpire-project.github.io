@@ -1,0 +1,37 @@
+body{
+    background-color: yellow;
+}
+.w3-container h1{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+#hero{
+    text-align: center;
+}
+.button{
+    padding: 10px;
+    margin-top: 50px;
+}
+button{
+    border-color: black;
+    background-color: transparent;
+    padding: 10px;
+}
+.button a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.buttons{
+    text-align: center;
+    text-decoration: none;
+}
+.buttons button{
+    border: solid;
+}
+.buttons a{
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
